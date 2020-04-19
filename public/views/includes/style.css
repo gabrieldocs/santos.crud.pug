@@ -1,0 +1,48 @@
+body {
+    background-color: #000 !important;    
+}
+
+h1, 
+h2, 
+h3, 
+h4,
+h5 {
+    font-family: 'Alata', sans-serif;
+}
+.posts {
+    min-height: 800px;
+}
+footer,
+.bg-dark-nav {
+    background-color: rgb(33, 33, 34) !important;
+}
+
+.form-control {
+    background-color:#1d1b1b !important; 
+    border-color: #1d1b1b !important;
+    color: #fff !important;
+}
+
+textarea {
+    min-height: 200px;
+    resize: none !important;
+}
+
+.card {
+    border-radius: 10px !important;
+    min-height: 200px;
+}
+
+.card-footer,
+.card-header {
+    border: none !important; 
+    background-color: transparent;
+}
+
+.btn { 
+    border-radius: 20px !important;
+}
+
+.btn-spotify {
+    background-color: #1DB954 !important;
+}

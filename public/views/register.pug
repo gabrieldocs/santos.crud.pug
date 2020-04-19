@@ -1,0 +1,16 @@
+html
+    include includes/head.pug
+body
+include includes/nav.pug
+.container.mt-5
+    .row.d-flex.justify-content-center 
+        .col-md-4   
+            center 
+                h1.text-white.mb-5
+                    i.fab.fa-spotify.text-white
+                    span.ml-3 NOVO ITEM          
+                
+            form(action = "/data" method = "post")
+                input.form-control.mb-3(type='text', placeholder='Título' name='titulo')
+                textarea.form-control.mb-3(type='text', placeholder='Conteúdo...' name='conteudo')
+                button.btn.btn-spotify.btn-block(type="submit") Publicar

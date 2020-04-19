@@ -1,0 +1,16 @@
+html
+    include includes/head.pug
+body
+    include includes/nav.pug
+    .container.posts
+        .row.d-flex.justify-content-start 
+            for post in posts 
+                .col-md-3.mt-3
+                    .card.shadow-sm.bg-dark-nav 
+                        .card-body.text-white 
+                            b= post.titulo
+                            p= post.conteudo
+                        .card-footer 
+                            a.btn.btn-block.btn-spotify(href="/delete/" + post.id) Deletar
+
+include includes/footer.pug
